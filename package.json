@@ -19,6 +19,8 @@
   "homepage": "https://github.com/acsilva-alss/blog-md#readme",
   "dependencies": {
     "gatsby": "^3.0.4",
+    "gatsby-source-filesystem": "^3.0.0",
+    "gatsby-transformer-remark": "^3.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }

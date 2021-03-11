@@ -1,0 +1,20 @@
+{
+  "name": "blog-md",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acsilva-alss/blog-md.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acsilva-alss/blog-md/issues"
+  },
+  "homepage": "https://github.com/acsilva-alss/blog-md#readme"
+}

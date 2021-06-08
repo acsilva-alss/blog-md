@@ -1,5 +1,6 @@
 import React from 'react'
 import {graphql, useStaticQuery, Link} from 'gatsby' 
+import Seo from '../components/Seo'
 const QUERY = graphql`
 query {
     posts: allMarkdownRemark {
@@ -19,6 +20,7 @@ const Blog = () => {
     const {posts} = useStaticQuery(QUERY)
     return(
         <div>
+            <Seo title='Blog do PowerSites'/>
             <h1>Blog</h1>
             {posts.edges.map(post => {
                 return(
